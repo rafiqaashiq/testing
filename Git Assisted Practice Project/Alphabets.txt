@@ -1,4 +1,1 @@
-Aa
-Bb
-Cc
-Dd
+A B C D
