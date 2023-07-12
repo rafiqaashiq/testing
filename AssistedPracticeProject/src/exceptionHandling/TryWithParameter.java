@@ -8,7 +8,7 @@ public class TryWithParameter {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		File file = new File("C:/Users/123/Downloads/Eclipse/Output.txt");
+		File file = new File("C:\\Users\\123\\Downloads\\Eclipse\\Source\\Output.txt");
 		
 		PrintWriter printWriter = new PrintWriter(file);
 		printWriter.print("Hello, today is Friday");
