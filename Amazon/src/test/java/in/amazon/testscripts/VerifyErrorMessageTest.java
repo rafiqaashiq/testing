@@ -19,7 +19,7 @@ public class VerifyErrorMessageTest extends BaseTest {
 		
 		// 6) enter invalid username in the email textbox
 		SignIn signIn = new SignIn(driver);
-		signIn.enterEMail("zepher@gmail.com");
+		signIn.enterEMail("zepher1234@gmail.com");
 		
 		// 7) click on 'Continue' button
 		signIn.clickContinueBtn();

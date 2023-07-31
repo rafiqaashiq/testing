@@ -11,7 +11,7 @@ public class ApplePhones {
 	private WebElement firstMobile;
 	
 	public ApplePhones(WebDriver driver) {
-		PageFactory.initElements(driver, null);
+		PageFactory.initElements(driver, this);
 	}
 	
 	public void clickFirstMobile() {
