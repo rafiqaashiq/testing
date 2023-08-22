@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T23:42:18 IST" name="Default suite" finished-at="2023-08-22T23:42:23 IST" duration-ms="4585">
+    <groups>
+    </groups>
+    <test started-at="2023-08-22T23:42:18 IST" name="Default test" finished-at="2023-08-22T23:42:23 IST" duration-ms="4585">
+      <class name="in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource@5a59ca5e]" started-at="2023-08-22T23:42:18 IST" name="setUp" finished-at="2023-08-22T23:42:18 IST" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPayload()[pri:0, instance:in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource@5a59ca5e]" started-at="2023-08-22T23:42:18 IST" name="createPayload" finished-at="2023-08-22T23:42:19 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPayload -->
+        <test-method signature="createResource()[pri:1, instance:in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource@5a59ca5e]" started-at="2023-08-22T23:42:19 IST" name="createResource" finished-at="2023-08-22T23:42:22 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createResource -->
+        <test-method signature="verifyResource()[pri:2, instance:in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource@5a59ca5e]" started-at="2023-08-22T23:42:22 IST" name="verifyResource" finished-at="2023-08-22T23:42:22 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResource -->
+        <test-method signature="updateResource()[pri:3, instance:in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource@5a59ca5e]" started-at="2023-08-22T23:42:22 IST" name="updateResource" finished-at="2023-08-22T23:42:22 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResource -->
+        <test-method signature="deleteResource()[pri:4, instance:in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource@5a59ca5e]" started-at="2023-08-22T23:42:23 IST" name="deleteResource" finished-at="2023-08-22T23:42:23 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResource -->
+      </class> <!-- in.Amazon.RestAssuredDemo.Create_Update_Delete_Resource -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
