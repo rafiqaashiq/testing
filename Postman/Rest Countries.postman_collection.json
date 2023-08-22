@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "0986acc5-a8a7-44f5-b3df-08876bd4ef4a",
+		"name": "Rest Countries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29056245",
+		"_collection_link": "https://test-phoenix.postman.co/workspace/testing_workspace~d8406dd6-fc49-464e-a571-896b82209fbd/collection/29056245-0986acc5-a8a7-44f5-b3df-08876bd4ef4a?action=share&source=collection_link&creator=29056245"
+	},
+	"item": [
+		{
+			"name": "All Countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "One Country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/name/japan",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"name",
+						"japan"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "c8d5e36f-b09a-43f5-bde8-e1e55f7f41e9",
+		"name": "OpenWeatherMap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29056245",
+		"_collection_link": "https://test-phoenix.postman.co/workspace/testing_workspace~d8406dd6-fc49-464e-a571-896b82209fbd/collection/29056245-c8d5e36f-b09a-43f5-bde8-e1e55f7f41e9?action=share&source=collection_link&creator=29056245"
+	},
+	"item": [
+		{
+			"name": "Current Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Salem&appid=4838282e9d146f53ad4364cb718b1282",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Salem"
+						},
+						{
+							"key": "appid",
+							"value": "4838282e9d146f53ad4364cb718b1282"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
