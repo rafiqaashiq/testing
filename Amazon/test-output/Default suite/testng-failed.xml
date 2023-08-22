@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="in.amazon.testscripts.DDF">
+      <class name="in.amazon.testscripts.BuyMobilePhoneTest">
         <methods>
           <include name="launchApplication"/>
-          <include name="verifyErrorMsg"/>
           <include name="closeBrowser"/>
+          <include name="buyMobile"/>
         </methods>
-      </class> <!-- in.amazon.testscripts.DDF -->
+      </class> <!-- in.amazon.testscripts.BuyMobilePhoneTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
